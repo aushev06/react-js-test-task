@@ -1,0 +1,19 @@
+.tests {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.answer {
+  display: flex;
+  & > input:last-child {
+    margin-left: 10px;
+  }
+}
+
+
+.question {
+  & > input {
+    margin: 10px;
+  }
+}
